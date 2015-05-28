@@ -1,0 +1,45 @@
+.item {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 40px;
+  display: flex;
+}
+.header {
+  flex: 1;
+}
+.body {
+  flex: 2;
+}
+.title {
+  margin: 0 0 10px 0;
+  font-size: 30px;
+}
+.subtitle {
+  margin-bottom: 15px;
+}
+.desc {
+
+}
+.imageFrame {
+  display: inline-block;
+  padding: 15px;
+  background: linear-gradient(to bottom, #fff 0%,#efefef 100%);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, .3);
+}
+.image {
+  width: 150px;
+}
+.linksList {
+
+}
+.linksItem {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+/*.linksItemSlide {*/
+  /*extends: .linksItem*/
+/*}*/

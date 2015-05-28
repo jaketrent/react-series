@@ -1,0 +1,9 @@
+:root {
+  --colorText: #3c3c3c;
+  --colorLink: rgb(107, 217, 251);
+}
+
+body {
+  background: #efefef;
+  color: var(--colorText);
+}
