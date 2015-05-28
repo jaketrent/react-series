@@ -23,7 +23,7 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'node_modules/html-webpack-template/index.html',
-      title: 'Demo Self Registration',
+      title: 'React Series',
       devServer: 'http://localhost:3000',
       appMountId: 'app'
     })
