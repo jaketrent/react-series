@@ -1,3 +1,5 @@
+@import "common/styles/breakpoints";
+
 .item {
   padding-bottom: 50px;
   border-bottom: 1px solid #c4c4c4;
@@ -6,6 +8,7 @@
 }
 .header {
   flex: 1;
+  padding-right: 20px;
 }
 .body {
   flex: 2;
@@ -17,26 +20,34 @@
 .subtitle {
   margin-bottom: 15px;
 }
-.desc {
-
-}
 .imageFrame {
   display: inline-block;
   padding: 15px;
   background: linear-gradient(to bottom, #fff 0%,#efefef 100%);
   box-shadow: 1px 3px 8px rgba(0, 0, 0, .3);
+  max-width: 100%;
 }
 .image {
-  width: 150px;
-}
-.linksList {
-
+  max-width: 100%;
 }
 .linksItem {
   margin-right: 10px;
 
   &:last-child {
     margin-right: 0;
+  }
+}
+
+@media (--medium) {
+  .header {
+    margin-bottom: 20px;
+  }
+  .item {
+    display: block;
+  }
+  .imageFrame {
+    width: 200px;
+    max-width: 100%;
   }
 }
 

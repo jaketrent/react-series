@@ -25,7 +25,8 @@ export default {
       template: 'node_modules/html-webpack-template/index.html',
       title: 'React Series',
       devServer: 'http://localhost:3000',
-      appMountId: 'app'
+      appMountId: 'app',
+      mobile: true
     })
   ]
 }
