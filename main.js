@@ -22463,7 +22463,7 @@
 	    value: function renderVideo(workshop) {
 	      if (workshop.hasVideoUrl()) return _react2['default'].createElement(
 	        'a',
-	        { className: _workshopItemCss2['default'].linksItem, href: workshop.videoUrl() },
+	        { target: '_blank', className: _workshopItemCss2['default'].linksItem, href: workshop.videoUrl() },
 	        'Recording'
 	      );else return _react2['default'].createElement(
 	        'span',
@@ -22476,7 +22476,7 @@
 	    value: function renderSlides(workshop) {
 	      if (workshop.hasSlidesUrl()) return _react2['default'].createElement(
 	        'a',
-	        { className: _workshopItemCss2['default'].linksItem, href: workshop.slidesUrl() },
+	        { target: '_blank', className: _workshopItemCss2['default'].linksItem, href: workshop.slidesUrl() },
 	        'Slides'
 	      );
 	    }
@@ -24098,6 +24098,15 @@
 	      imageUrl: 'http://i.imgur.com/y9R8YI7.jpg',
 	      slidesUrl: 'https://dl.dropboxusercontent.com/u/990505/reactTraining/150529_dareToDispatch.key'
 	    }
+	  }, {
+	    title: 'API Aficianading',
+	    subtitle: 'Leave No Backend Behind',
+	    desc: 'We connected our frontend to a backend API, implementing the network access layer',
+	    links: {
+	      videoUrl: 'https://bluejeans.com/s/8jiQ/',
+	      imageUrl: 'http://i.imgur.com/bEcBZoZ.jpg',
+	      slidesUrl: 'https://dl.dropboxusercontent.com/u/990505/reactTraining/150603_apiAficianading.pdf'
+	    }
 	  }];
 	}
 
@@ -24138,13 +24147,11 @@
 	  "body": "_1dmcO6DF3yTMfHrzl-YBxd",
 	  "title": "_3RwU0TOYMCNQ0uyIWM40xq",
 	  "subtitle": "_3O0_rGMGd7ukhOPwjJWlTY",
-	  "desc": "_1h6ldPMd4I1hBLST_M3KsB",
 	  "imageFrame": "_2JRmQlx-9tqFL8bjs-6Vao",
 	  "image": "_2zyZQDnoO2Gp0xK6vpVjJU",
-	  "linksList": "_3r_WN-ovx-DLJASB-4W7mm",
 	  "linksItem": "aUUT15FvFvPHkXpbTl9rJ"
 	};
-	exports.push([module.id, "._2M8oTvSS_1meIf17ubJnCL {\n  padding-bottom: 50px;\n  border-bottom: 1px solid #c4c4c4;\n  margin-bottom: 40px;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n}\n._1-X33IKdQuzsX57FN5kdcd {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n}\n._1dmcO6DF3yTMfHrzl-YBxd {\n  -webkit-box-flex: 2;\n  -webkit-flex: 2;\n      -ms-flex: 2;\n          flex: 2;\n}\n._3RwU0TOYMCNQ0uyIWM40xq {\n  margin: 0 0 10px 0;\n  font-size: 30px;\n}\n._3O0_rGMGd7ukhOPwjJWlTY {\n  margin-bottom: 15px;\n}\n._1h6ldPMd4I1hBLST_M3KsB {\n\n}\n._2JRmQlx-9tqFL8bjs-6Vao {\n  display: inline-block;\n  padding: 15px;\n  background: -webkit-linear-gradient(top, #fff 0%, #efefef 100%);\n  background: linear-gradient(to bottom, #fff 0%,#efefef 100%);\n  box-shadow: 1px 3px 8px #000000;\n  box-shadow: 1px 3px 8px rgba(0, 0, 0, .3);\n}\n._2zyZQDnoO2Gp0xK6vpVjJU {\n  width: 150px;\n}\n._3r_WN-ovx-DLJASB-4W7mm {\n\n}\n.aUUT15FvFvPHkXpbTl9rJ {\n  margin-right: 10px;\n}\n.aUUT15FvFvPHkXpbTl9rJ:last-child {\n  margin-right: 0;\n}\n\n/*.linksItemSlide {*/\n  /*extends: .linksItem*/\n/*}*/", ""]);
+	exports.push([module.id, "._2M8oTvSS_1meIf17ubJnCL {\n  padding-bottom: 50px;\n  border-bottom: 1px solid #c4c4c4;\n  margin-bottom: 40px;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n}\n._1-X33IKdQuzsX57FN5kdcd {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n  padding-right: 20px;\n}\n._1dmcO6DF3yTMfHrzl-YBxd {\n  -webkit-box-flex: 2;\n  -webkit-flex: 2;\n      -ms-flex: 2;\n          flex: 2;\n}\n._3RwU0TOYMCNQ0uyIWM40xq {\n  margin: 0 0 10px 0;\n  font-size: 30px;\n}\n._3O0_rGMGd7ukhOPwjJWlTY {\n  margin-bottom: 15px;\n}\n._2JRmQlx-9tqFL8bjs-6Vao {\n  display: inline-block;\n  padding: 15px;\n  background: -webkit-linear-gradient(top, #fff 0%, #efefef 100%);\n  background: linear-gradient(to bottom, #fff 0%,#efefef 100%);\n  box-shadow: 1px 3px 8px #000000;\n  box-shadow: 1px 3px 8px rgba(0, 0, 0, .3);\n  max-width: 100%;\n}\n._2zyZQDnoO2Gp0xK6vpVjJU {\n  max-width: 100%;\n}\n.aUUT15FvFvPHkXpbTl9rJ {\n  margin-right: 10px;\n}\n.aUUT15FvFvPHkXpbTl9rJ:last-child {\n  margin-right: 0;\n}\n\n@media (width < 667px) {\n  ._1-X33IKdQuzsX57FN5kdcd {\n    margin-bottom: 20px;\n  }\n  ._2M8oTvSS_1meIf17ubJnCL {\n    display: block;\n  }\n  ._2JRmQlx-9tqFL8bjs-6Vao {\n    width: 200px;\n    max-width: 100%;\n  }\n}\n\n/*.linksItemSlide {*/\n  /*extends: .linksItem*/\n/*}*/", ""]);
 
 /***/ },
 /* 297 */
